@@ -8,3 +8,12 @@ Write a function called reverseArray which takes an array as an argument. Withou
 
 ## Solution
 ![array_reverse](assets/array_reverse.jpg "array_reverse")
+
+# Shift an Array
+This challenge was to take 2 inputs, one array and one value, and insert the given value into the middle index of the array. This was pretty easy to do since we were allowed to use built-in methods and splice could do exactly what I needed.
+
+## Challenge
+Insert and shift an array in middle at index
+
+## Solution
+![array_reverse](assets/array_shift.jpg "array_reverse")
