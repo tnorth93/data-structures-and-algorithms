@@ -17,3 +17,5 @@ Insert and shift an array in middle at index
 
 ## Solution
 ![array_reverse](assets/array_shift.jpg "array_reverse")
+
+[![Build Status](https://travis-ci.com/tnorth93/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/tnorth93/data-structures-and-algorithms)
