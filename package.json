@@ -1,0 +1,22 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "code challenges",
+  "main": "array_reverse.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnorth93/data-structures-and-algorithms.git"
+  },
+  "author": "Tom North",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tnorth93/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/tnorth93/data-structures-and-algorithms#readme",
+  "dependencies": {
+    "jest": "^23.6.0"
+  }
+}
