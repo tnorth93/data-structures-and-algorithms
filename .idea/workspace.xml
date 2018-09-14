@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cee700e-d50c-4b3c-9268-ac64dff95fdc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__test__/shift.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../__test__/shift.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../array_reverse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../array_shift.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,6 +39,7 @@
           <entry key="gitignore" value="1" />
           <entry key="js" value="5" />
           <entry key="json" value="3" />
+          <entry key="md" value="1" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -51,6 +47,7 @@
         <counts>
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="5" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="YAML" value="1" />
         </counts>
@@ -59,12 +56,14 @@
         <counts>
           <entry key="js" value="479" />
           <entry key="json" value="37" />
+          <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="37" />
           <entry key="JavaScript" value="479" />
+          <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -76,11 +75,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../__test__/shift.test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
               <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="399">
+                <caret line="20" column="161" selection-start-line="20" selection-start-column="161" selection-end-line="20" selection-end-column="161" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -120,6 +131,7 @@
         <option value="$PROJECT_DIR$/../lib/array_shift.js" />
         <option value="$PROJECT_DIR$/../lib/array_reverse.js" />
         <option value="$PROJECT_DIR$/../__test__/shift.test.js" />
+        <option value="$PROJECT_DIR$/../README.md" />
       </list>
     </option>
   </component>
@@ -224,12 +236,12 @@
       <workItem from="1536955668214" duration="1116000" />
       <workItem from="1536956835162" duration="405000" />
       <workItem from="1536957257680" duration="406000" />
-      <workItem from="1536957706663" duration="1394000" />
+      <workItem from="1536957706663" duration="1708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5920000" />
+    <option name="totallyTimeSpent" value="6234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -332,6 +344,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="399">
+            <caret line="20" column="161" selection-start-line="20" selection-start-column="161" selection-end-line="20" selection-end-column="161" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
