@@ -7,6 +7,7 @@ module.exports = class LinkedList {
     this.head = null;
   }
 
+  // Tom - O(1)
   insertAtHead(value) {
     const node = new Node(value);
     node.next = this.head;
@@ -14,6 +15,7 @@ module.exports = class LinkedList {
     return this;
   }
 
+  // Tom - O(n)
   find(value) {
     if (!this.head) {
       throw new Error('__ERROR__ The list is empty');
@@ -31,6 +33,7 @@ module.exports = class LinkedList {
     return null;
   }
 
+  // Tom - O(n)
   remove(value) {
     if (!this.head) {
       throw new Error('__ERROR__ The list is empty!');
@@ -42,7 +45,7 @@ module.exports = class LinkedList {
     while (currentNode.next) {
       if (currentNode.next.value === value) {
         currentNode.next = currentNode.next.next;
-        return currentNode;
+        return currentNode.next;
       }
       currentNode = currentNode.next;
     }
