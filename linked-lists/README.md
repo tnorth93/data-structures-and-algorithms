@@ -1,5 +1,6 @@
 ### README
 
+[![Build Status](https://travis-ci.com/tnorth93/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/tnorth93/data-structures-and-algorithms)
 # Data Structure
 Ok so this is a linked list constructor and it makes linked lists with 3 methods. the 3 methods are:
 
