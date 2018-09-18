@@ -18,4 +18,20 @@ Insert and shift an array in middle at index
 ## Solution
 ![array_reverse](assets/array_shift.jpg "array_reverse")
 
+# Linked List Insertions
+This challenge included the creation of 3 methods for an already existing linked list constructor. The 3 methods included adding new nodes to a linked list. One that appended a new node to the tail, one that, given a value, inserts a new node before that value, and finally a method that inserted a new node after a given value.
+## Challenge
+    Write the following methods for the Linked List class:
+
+- .append(value) which adds a new node with the given value to the end of the list
+
+- .insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+
+- .insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+You have access to the Node class and all the properties on the Linked List class.
+
+## Solution
+![ll_insertion1](assets/ll_insertions1.jpg "array_insertion1")
+![ll_insertion2](assets/ll_insertions2.jpg "array_insertion2")
+
 [![Build Status](https://travis-ci.com/tnorth93/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/tnorth93/data-structures-and-algorithms)

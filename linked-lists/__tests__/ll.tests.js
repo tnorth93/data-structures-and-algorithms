@@ -44,4 +44,19 @@ describe('#index.js', () => {
       }).toThrow();
     });
   });
+
+  describe('append method tests', () => {
+    test('append check 1', () => {
+      pupulatedList.append('pup zeta');
+      expect(pupulatedList.head.next.next.next.next.next.next.next.next.next.next.next.value).toEqual('pup zeta');
+    });
+    test('append check 2', () => {
+      expect(pupulatedList.append('pup teke')).toMatchObject({ next: null, value: 'pup teke' });
+    });
+    test('check if linked list is empty on remove', () => {
+      expect(() => {
+        emptyList.append('zeta pup');
+      }).toThrow();
+    });
+  });
 });

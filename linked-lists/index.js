@@ -51,4 +51,18 @@ module.exports = class LinkedList {
     }
     return null;
   }
+
+  // Tom - O(n)
+  append(value) {
+    if (!this.head) {
+      throw new Error('__ERROR__ The list is empty!');
+    }
+    const node = new Node(value);
+    let currentNode = this.head;
+    while (currentNode.next) {
+      currentNode = currentNode.next;
+    }
+    currentNode.next = node;
+    return node;
+  }
 };
