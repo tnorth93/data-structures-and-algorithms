@@ -65,4 +65,27 @@ module.exports = class LinkedList {
     currentNode.next = node;
     return node;
   }
+
+  // Tom - O(n)
+  kthFromEnd(k) {
+    if (!this.head) {
+      throw new Error('__ERROR__The list is empty!');
+    }
+    let slowCounter = 0;
+    let fastCounter = 0;
+    let currentNode = this.head;
+    let correctNode = this.head;
+    while (currentNode.next) {
+      currentNode = currentNode.next;
+      slowCounter += 1;
+    }
+    if (k > slowCounter) {
+      throw new Error('__ERROR__ k is greater than the length of the list!');
+    }
+    fastCounter = slowCounter - k;
+    for (let i = 0; i < fastCounter; i++) {
+      correctNode = correctNode.next;
+    }
+    return correctNode.value;
+  }
 };
