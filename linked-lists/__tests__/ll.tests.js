@@ -59,4 +59,20 @@ describe('#index.js', () => {
       }).toThrow();
     });
   });
+
+  describe('kth from end tests', () => {
+    test('kth from end check 1', () => {
+      expect(pupulatedList.kthFromEnd(2)).toEqual('pup 0');
+    });
+    test('throw an error if k is greater than the length of the list', () => {
+      expect(() => {
+        pupulatedList.kthFromEnd(13);
+      }).toThrow();
+    });
+    test('throw an error if list is empty', () => {
+      expect(() => {
+        emptyList.kthFromEnd(3);
+      }).toThrow();
+    });
+  });
 });
