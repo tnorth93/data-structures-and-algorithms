@@ -88,4 +88,26 @@ module.exports = class LinkedList {
     }
     return correctNode.value;
   }
+
+  // Tom O(n)
+  merge(ll1, ll2) {
+    if (!ll1.head || !ll2.head) {
+      throw new Error('empty list');
+    }
+
+    let currentNode1 = ll1.head;
+    let currentNode2 = ll2.head;
+    let helperA = currentNode1;
+    let helperB = currentNode2;
+    while (currentNode1.next && currentNode2.next) {
+      helperA = currentNode1.next;
+      helperB = currentNode2.next;
+      currentNode1.next = currentNode2;
+      currentNode1 = currentNode1.next;
+      currentNode2 = helperB;
+      currentNode1.next = helperA;
+      currentNode1 = currentNode1.next;
+    }
+    return ll1;
+  }
 };

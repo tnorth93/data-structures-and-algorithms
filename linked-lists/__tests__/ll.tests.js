@@ -4,9 +4,16 @@ const LinkedList = require('../index');
 
 const emptyList = new LinkedList();
 const pupulatedList = new LinkedList();
+const ll1 = new LinkedList();
+const ll2 = new LinkedList();
 
 for (let i = 0; i < 10; i++) {
   pupulatedList.insertAtHead(`pup ${i}`);
+}
+
+for (let i = 3; i > 0; i--) {
+  ll1.insertAtHead(i);
+  ll2.insertAtHead(i + 10);
 }
 
 describe('#index.js', () => {
@@ -72,6 +79,22 @@ describe('#index.js', () => {
     test('throw an error if list is empty', () => {
       expect(() => {
         emptyList.kthFromEnd(3);
+      }).toThrow();
+    });
+  });
+
+  describe('merge two lists tests', () => {
+    test('merge', () => {
+      expect(pupulatedList.merge(ll1, ll2)).toEqual({ head: { next: { next: { next: { next: { next: null, value: 3 }, value: 12 }, value: 2 }, value: 11 }, value: 1 } });
+    });
+    test('throw an error if k is greater than the length of the list', () => {
+      expect(() => {
+        pupulatedList.kthFromEnd(13);
+      }).toThrow();
+    });
+    test('throw an error if list is empty', () => {
+      expect(() => {
+        emptyList.merge(emptyList, emptyList);
       }).toThrow();
     });
   });
