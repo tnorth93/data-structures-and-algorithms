@@ -37,12 +37,22 @@ You have access to the Node class and all the properties on the Linked List clas
 ## Linked List kth from end
 This challenge included creating another method for the LinkedList class that takes in a value, k,
 and returns the value of the node that is k nodes from the end of the list. 
-## Challenge
+### Challenge
     Write the following methods for the Linked List class:
 
 Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list. You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges. ​
 
-## Solution
+### Solution
 ![kth_from_end](assets/ll_kth_from_end.jpg "kth_from_end")
+
+[![Build Status](https://travis-ci.com/tnorth93/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/tnorth93/data-structures-and-algorithms)
+
+## Linked List Merge
+This challenge included creating another method for the LinkedList class that takes in two separate linked lists and merges them in alternating order.
+### Challenge
+    Write the following methods for the Linked List class:
+Write a function called mergeLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+### Solution
+![merge](assets/ll_merge.jpg "merge")
 
 [![Build Status](https://travis-ci.com/tnorth93/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/tnorth93/data-structures-and-algorithms)
