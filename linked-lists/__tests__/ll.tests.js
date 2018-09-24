@@ -83,12 +83,18 @@ describe('#index.js', () => {
     });
   });
 
-  describe('remove/empty tests with offset', () => {
-    test('remove offset test', () => {
-      pupulatedList.removeAtOffset(2);
-      expect(pupulatedList.head.next.next.value).toEqual('pup 7');
+  describe('merge two lists tests', () => {
+    test('merge', () => {
+      pupulatedList.merge(ll1, ll2);
+      expect((ll1.head.value)).toEqual(1);
+      expect((ll1.head.next.value)).toEqual(11);
     });
-    test('check if linked list is empty on remove', () => {
+    test('throw an error if one of the lists is empty', () => {
+      expect(() => {
+        pupulatedList.merge(ll1, emptyList);
+      }).toThrow();
+    });
+    test('throw an error if list is empty', () => {
       expect(() => {
         emptyList.remove('omega pup');
       }).toThrow();
