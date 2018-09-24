@@ -58,7 +58,7 @@ describe('#index.js', () => {
       expect(pupulatedList.head.next.next.next.next.next.next.next.next.next.next.next.value).toEqual('pup zeta');
     });
     test('append check 2', () => {
-      expect(pupulatedList.append('pup teke')).toMatchObject({next: null, value: 'pup teke'});
+      expect(pupulatedList.append('pup teke')).toMatchObject({ next: null, value: 'pup teke' });
     });
     test('check if linked list is empty on remove', () => {
       expect(() => {
@@ -86,7 +86,7 @@ describe('#index.js', () => {
   describe('remove/empty tests with offset', () => {
     test('remove offset test', () => {
       pupulatedList.removeAtOffset(2);
-      expect(pupulatedList.head.next.next.value).toEqual('pup 6');
+      expect(pupulatedList.head.next.next.value).toEqual('pup 7');
     });
     test('check if linked list is empty on remove', () => {
       expect(() => {
