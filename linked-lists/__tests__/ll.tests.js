@@ -58,7 +58,7 @@ describe('#index.js', () => {
       expect(pupulatedList.head.next.next.next.next.next.next.next.next.next.next.next.value).toEqual('pup zeta');
     });
     test('append check 2', () => {
-      expect(pupulatedList.append('pup teke')).toMatchObject({ next: null, value: 'pup teke' });
+      expect(pupulatedList.append('pup teke')).toMatchObject({next: null, value: 'pup teke'});
     });
     test('check if linked list is empty on remove', () => {
       expect(() => {
@@ -83,18 +83,14 @@ describe('#index.js', () => {
     });
   });
 
-  describe('merge two lists tests', () => {
-    test('merge', () => {
-      expect(pupulatedList.merge(ll1, ll2)).toEqual({ head: { next: { next: { next: { next: { next: null, value: 3 }, value: 12 }, value: 2 }, value: 11 }, value: 1 } });
+  describe('remove/empty tests with offset', () => {
+    test('remove offset test', () => {
+      pupulatedList.removeAtOffset(2);
+      expect(pupulatedList.head.next.next.value).toEqual('pup 6');
     });
-    test('throw an error if k is greater than the length of the list', () => {
+    test('check if linked list is empty on remove', () => {
       expect(() => {
-        pupulatedList.kthFromEnd(13);
-      }).toThrow();
-    });
-    test('throw an error if list is empty', () => {
-      expect(() => {
-        emptyList.merge(emptyList, emptyList);
+        emptyList.remove('omega pup');
       }).toThrow();
     });
   });
