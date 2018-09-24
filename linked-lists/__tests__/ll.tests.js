@@ -85,11 +85,13 @@ describe('#index.js', () => {
 
   describe('merge two lists tests', () => {
     test('merge', () => {
-      expect(pupulatedList.merge(ll1, ll2)).toEqual({ head: { next: { next: { next: { next: { next: null, value: 3 }, value: 12 }, value: 2 }, value: 11 }, value: 1 } });
+      pupulatedList.merge(ll1, ll2);
+      expect((ll1.head.value)).toEqual(1);
+      expect((ll1.head.next.value)).toEqual(11);
     });
-    test('throw an error if k is greater than the length of the list', () => {
+    test('throw an error if one of the lists is empty', () => {
       expect(() => {
-        pupulatedList.kthFromEnd(13);
+        pupulatedList.merge(ll1, emptyList);
       }).toThrow();
     });
     test('throw an error if list is empty', () => {

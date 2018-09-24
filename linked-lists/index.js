@@ -94,7 +94,6 @@ module.exports = class LinkedList {
     if (!ll1.head || !ll2.head) {
       throw new Error('empty list');
     }
-
     let currentNode1 = ll1.head;
     let currentNode2 = ll2.head;
     let helperA = currentNode1;
@@ -107,6 +106,9 @@ module.exports = class LinkedList {
       currentNode2 = helperB;
       currentNode1.next = helperA;
       currentNode1 = currentNode1.next;
+    }
+    if (!currentNode1.next && currentNode2.next) {
+      currentNode1.next = currentNode2;
     }
     return ll1;
   }
