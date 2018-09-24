@@ -96,7 +96,7 @@ describe('#index.js', () => {
     });
     test('throw an error if list is empty', () => {
       expect(() => {
-        emptyList.merge(emptyList, emptyList);
+        emptyList.remove('omega pup');
       }).toThrow();
     });
   });

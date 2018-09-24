@@ -52,6 +52,20 @@ module.exports = class LinkedList {
     return null;
   }
 
+  // O(1)
+  removeAtOffset(offset) {
+    if (!this.head) {
+      throw new Error('__ERROR__ The list is empty!');
+    }
+    let currentNode = this.head;
+    if (offset > 0) {
+      currentNode = currentNode.next;
+      return this.removeAtOffset(offset - 1);
+    }
+    currentNode.next = currentNode.next.next;
+    return currentNode.next;
+  }
+
   // Tom - O(n)
   append(value) {
     if (!this.head) {
