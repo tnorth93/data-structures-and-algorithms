@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/tnorth93/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/tnorth93/data-structures-and-algorithms)
+
 # data-structures-and-algorithms
 
 ## Reverse an Array
@@ -45,8 +47,6 @@ Write a method for the Linked List class which takes a number, k, as a parameter
 ### Solution
 ![kth_from_end](assets/ll_kth_from_end.jpg "kth_from_end")
 
-[![Build Status](https://travis-ci.com/tnorth93/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/tnorth93/data-structures-and-algorithms)
-
 ## Linked List Merge
 This challenge included creating another method for the LinkedList class that takes in two separate linked lists and merges them in alternating order.
 ### Challenge
@@ -55,4 +55,13 @@ Write a function called mergeLists which takes two linked lists as arguments. Zi
 ### Solution
 ![merge](assets/ll_merge.jpg "merge")
 
-[![Build Status](https://travis-ci.com/tnorth93/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/tnorth93/data-structures-and-algorithms)
+## Creating a Queue with Two Stacks
+This challenge included creating a method that takes two LIFO stacks and manipulates them using only push and pop methods to create a FIFI queue.
+### Challenge
+Create a new Queue class. Using two Stack instances, implement this Queue with the following methods:
+
+- enqueue(value) which inserts value into the Queue using a first-in, first-out approach.
+- dequeue() which extracts a value from the Queue using a first-in, first-out approach.
+- The Stack instances have only push and pop methods, and a size property. Instantiate these Stack objects in your Queue constructor.
+### Solution
+![queue](assets/queue_with_stacks.jpg "queue")

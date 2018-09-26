@@ -1,17 +1,57 @@
-class Queue {
+'use strict';
+
+class Stack {
+  constructor() {
+    this.stackStorage = [];
+  }
+
+  push(value) {
+    this.stackStorage.push(value);
+  }
+
+  pop() {
+    return this.stackStorage.pop();
+  }
+}
+
+class TwoStackQueue {
   constructor() {
     this.stackA = new Stack();
     this.stackB = new Stack();
   }
 
   enqueue(value) {
-    stackA.push(value);
+    this.stackA.push(value);
   }
 
   dequeue() {
-    while (stackA !== null) {
-      stackB.push(stackA.pop());
+    let popValue = this.stackB.pop();
+    if (popValue) {
+      return popValue;
     }
-    return stackB.pop();
+    while (true) { // eslint-ignore-line
+      popValue = this.stackA.pop();
+      if (popValue) {
+        this.stackB.push(popValue);
+      } else {
+        break;
+      }
+    }
+    return this.stackB.pop();
   }
 }
+
+const testStack = new TwoStackQueue();
+testStack.enqueue(5);
+testStack.enqueue(6);
+testStack.enqueue(7);
+testStack.enqueue(8);
+testStack.enqueue(9);
+
+testStack.dequeue();
+testStack.dequeue();
+testStack.dequeue();
+testStack.dequeue();
+testStack.dequeue();
+
+module.exports = TwoStackQueue;
