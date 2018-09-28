@@ -65,3 +65,16 @@ Create a new Queue class. Using two Stack instances, implement this Queue with t
 - The Stack instances have only push and pop methods, and a size property. Instantiate these Stack objects in your Queue constructor.
 ### Solution
 ![queue](assets/queue_with_stacks.jpg "queue")
+
+## Creating a FIFO AnimalShelter Class
+This challenge included creating a method that takes two LIFO stacks and manipulates them using only push and pop methods to create a FIFI queue.
+### Challenge
+Create a class called AnimalShelter which holds only dogs and cats. The shelter operates using a first-in, first-out approach.
+Implement the following methods:
+enqueue(animal): adds animal to the shelter. animal can be either a dog or a cat object.
+dequeue(pref): returns either a dog or a cat. If pref, a string, is ‘cat’ return the longest-waiting cat. If pref is ‘dog’, return the longest-waiting dog. For anything else, return either a cat or a dog.
+- enqueue(value) which inserts value into the Queue using a first-in, first-out approach.
+- dequeue() which extracts a value from the Queue using a first-in, first-out approach.
+- The Stack instances have only push and pop methods, and a size property. Instantiate these Stack objects in your Queue constructor.
+### Solution
+![shelter](assets/fifo_animal_shelter.jpg "animal shelter")
