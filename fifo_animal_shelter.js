@@ -1,14 +1,6 @@
 'use strict';
 
-
-let age = 0;
-
-function ShelterAnimal(type) {
-  this.type = type;
-  this.age = age;
-}
-
-class AnimalShelter {
+module.exports = class AnimalShelter {
   constructor() {
     this.catArray = [];
     this.dogArray = [];
@@ -17,28 +9,29 @@ class AnimalShelter {
 
   enqueue(animal) {
     if (animal.type === 'cat') {
+      animal.age = this.age;
       this.catArray.push(animal);
-      age += 1;
+      this.age += 1;
     } else {
+      animal.age = this.age;
       this.dogArray.push(animal);
-      age += 1;
+      this.age += 1;
     }
   }
 
   dequeue(pref) {
     if (pref === 'cat') {
-      this.catArray.shift();
+      return this.catArray.shift();
     }
     if (pref === 'dog') {
-      this.dogArray.shift();
+      return this.dogArray.shift();
     }
-    if (this.catArray[0].age < this.dogArray[0].age) {
-      this.catArray.shift();
-    } else {
-      this.dogArray.shift();
+    if (this.catArray.age === undefined || this.dogArray.age === undefined) {
+      return this.catArray.shift();
     }
+    if (this.catArray[0].age > this.dogArray[0].age) {
+      return this.catArray.shift();
+    }
+    return this.catArray.shift();
   }
-}
-
-module.exports = AnimalShelter;
-module.exports = ShelterAnimal;
+};
