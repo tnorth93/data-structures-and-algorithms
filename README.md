@@ -78,3 +78,12 @@ dequeue(pref): returns either a dog or a cat. If pref, a string, is ‘cat’ re
 - The Stack instances have only push and pop methods, and a size property. Instantiate these Stack objects in your Queue constructor.
 ### Solution
 ![shelter](assets/fifo_animal_shelter.jpg "animal shelter")
+
+## Creating a binary tree fizzbuzz function
+This challenge included creating a method that takes a tree and swaps any values divisible by 3 for the string 'fizz', any values divisible by 5 for the string 'buzz',
+and any values divisible by 3 and 5 for the string 'fizzbuzz'.
+### Challenge
+- Write a function called FizzBuzzTree which takes a tree as an argument.
+Without utilizing any of the built-in methods available to your language, determine weather or not the value of each node is divisible by 3, 5 or both, and change the value of each of the nodes respectively. Return the tree with it’s news values.
+### Solution
+![fizzbuzztree](assets/fizzbuzztree.jpg "fizzbuzztree")
