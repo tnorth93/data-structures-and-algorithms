@@ -87,3 +87,11 @@ and any values divisible by 3 and 5 for the string 'fizzbuzz'.
 Without utilizing any of the built-in methods available to your language, determine weather or not the value of each node is divisible by 3, 5 or both, and change the value of each of the nodes respectively. Return the tree with it’s news values.
 ### Solution
 ![fizzbuzztree](assets/fizzbuzztree.jpg "fizzbuzztree")
+
+## Repeated Word Challenge
+This challenge included creating a function that takes a lengthy string in as an argument and returns the first word that is repeated in the string. We had to use hashmaps to maintain an O(n) of time.
+### Challenge
+Write a function that accepts a lengthy string parameter.
+Return the first word to occur more than once in that provided string.
+### Solution
+![repeatedWord](assets/repeated_word.jpg "repeatedWord")
