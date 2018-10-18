@@ -95,3 +95,11 @@ Write a function that accepts a lengthy string parameter.
 Return the first word to occur more than once in that provided string.
 ### Solution
 ![repeatedWord](assets/repeated_word.jpg "repeatedWord")
+
+## Binary Tree Intersection
+This challenge included creating a function that takes two binary trees in as arguments and returns an array with common values hared between the two
+### Challenge
+Write a function called tree_intersection that takes two binary tree parameters.
+return a set of values found in both trees.
+### Solution
+![treeIntersection](assets/tree_intersection.jpg "treeIntersection")
