@@ -10,7 +10,7 @@ binaryTreeOne.root.left.left = new Node(3);
 binaryTreeOne.root.left.right = new Node(5);
 binaryTreeOne.root.right = new Node(6);
 binaryTreeOne.root.right.right = new Node(4);
-binaryTreeOne.root.right.right.left= new Node(8);
+binaryTreeOne.root.right.right.left = new Node(8);
 
 const binaryTreeTwo = new Tree(7);
 binaryTreeTwo.root.right = new Node(1);
@@ -18,7 +18,7 @@ binaryTreeTwo.root.left = new Node(3);
 binaryTreeTwo.root.left.right = new Node(5);
 binaryTreeTwo.root.right.left = new Node(6);
 binaryTreeTwo.root.right.right = new Node(4);
-binaryTreeTwo.root.right.right.left= new Node(8);
+binaryTreeTwo.root.right.right.left = new Node(8);
 
 const binaryTreeThree = new Tree(93);
 binaryTreeTwo.root.right = new Node(11);

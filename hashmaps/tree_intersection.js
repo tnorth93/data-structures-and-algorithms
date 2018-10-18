@@ -12,8 +12,7 @@ module.exports = function treeIntersection(treeOne, treeTwo) {
     traverseTreeOne(root.left);
     traverseTreeOne(root.right);
     return undefined;
-  }
-  (treeOne.root));
+  }(treeOne.root));
   (function traverseTreeTwo(root) {
     if (root === null) {
       return undefined;
@@ -23,10 +22,10 @@ module.exports = function treeIntersection(treeOne, treeTwo) {
     }
     traverseTreeTwo(root.left);
     traverseTreeTwo(root.right);
-  }
-  (treeTwo.root));
-  intersection.forEach(function(value, key) {
+    return undefined;
+  }(treeTwo.root));
+  intersection.forEach((value, key) => {
     returnArray.push(key);
-  })
+  });
   return returnArray;
 };
