@@ -18,15 +18,15 @@ binaryTreeOne.root.right.right.left = new Node(8);
 const binaryTreeTwo = new Tree(null);
 
 describe('#parentchildtree.js', () => {
-  test('Values have a parent-child relationship', () => {
+  test('Values have a parent-child relationship, should return true', () => {
     expect(parentchildtree(valA, valB, binaryTreeOne)).toEqual(true);
   });
 
-  test('Values do not have a parent-child relationship', () => {
+  test('Values do not have a parent-child relationship, should return false', () => {
     expect(parentchildtree(valB, valA, binaryTreeOne)).toEqual(false);
   });
 
-  test('Tree is null', () => {
+  test('Tree is null, should return undefined', () => {
     expect(parentchildtree(valA, valB, binaryTreeTwo)[0]).toEqual(undefined);
   });
 });
