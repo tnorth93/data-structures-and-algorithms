@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1f731c8e-1776-4938-94bb-4883bcd6c229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../__test__/treeIntersection.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../__test__/treeIntersection.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../tree_intersection.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../tree_intersection.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,6 +47,7 @@
     <session id="477822559">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -179,12 +178,12 @@
       <option name="presentableId" value="Default" />
       <updated>1539731239387</updated>
       <workItem from="1539731240791" duration="2652000" />
-      <workItem from="1539833183412" duration="3129000" />
+      <workItem from="1539833183412" duration="3664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5781000" />
+    <option name="totallyTimeSpent" value="6316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="989" height="1047" extended-state="0" />

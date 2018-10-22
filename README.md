@@ -103,3 +103,11 @@ Write a function called tree_intersection that takes two binary tree parameters.
 return a set of values found in both trees.
 ### Solution
 ![treeIntersection](assets/tree_intersection.jpg "treeIntersection")
+
+## Binary Tree Parent/Child Finder
+This challenge included creating a function that takes two values and a binary tree and returning true if the first value is a parent of the second value in the tree.
+### Challenge
+Write a function that takes in 2 values and a binary tree as arguments
+return true if the first value given is a parent of the second value
+### Solution
+![treeIntersection](assets/tree_intersection.jpg "treeIntersection")
