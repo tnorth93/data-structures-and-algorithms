@@ -110,4 +110,4 @@ This challenge included creating a function that takes two values and a binary t
 Write a function that takes in 2 values and a binary tree as arguments
 return true if the first value given is a parent of the second value
 ### Solution
-![treeIntersection](assets/tree_intersection.jpg "treeIntersection")
+![parentchildtree](assets/parentchildtree.jpg "parentchildtree")

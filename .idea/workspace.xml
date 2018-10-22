@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cee700e-d50c-4b3c-9268-ac64dff95fdc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../assets/parentchildtree.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hashmaps/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hashmaps/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,8 +55,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/../__test__/parentchildtree.test.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="621">
-                    <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+                  <state relative-caret-position="299">
+                    <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
                   </state>
                 </provider>
               </entry>
@@ -93,7 +93,7 @@
           <entry key="gitignore" value="1" />
           <entry key="js" value="18" />
           <entry key="json" value="3" />
-          <entry key="md" value="3" />
+          <entry key="md" value="4" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -101,7 +101,7 @@
         <counts>
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="18" />
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="YAML" value="1" />
         </counts>
@@ -110,14 +110,14 @@
         <counts>
           <entry key="js" value="3492" />
           <entry key="json" value="37" />
-          <entry key="md" value="194" />
+          <entry key="md" value="240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="37" />
           <entry key="JavaScript" value="3492" />
-          <entry key="Markdown" value="194" />
+          <entry key="Markdown" value="240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -178,7 +178,20 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="466">
+                <caret line="112" column="49" selection-start-line="112" selection-start-column="49" selection-end-line="112" selection-end-column="49" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -201,7 +214,6 @@
         <option value="$PROJECT_DIR$/../lib/array_shift.js" />
         <option value="$PROJECT_DIR$/../queue_with_stacks.js" />
         <option value="$PROJECT_DIR$/../__test__/queue.test.js" />
-        <option value="$PROJECT_DIR$/../README.md" />
         <option value="$PROJECT_DIR$/../../fifo_animal_shelter.js" />
         <option value="$PROJECT_DIR$/../../__test__/fifoAnimalShelter.test.js" />
         <option value="$PROJECT_DIR$/../animal.js" />
@@ -215,6 +227,7 @@
         <option value="$PROJECT_DIR$/../../binary_tree/parentchildtree.js" />
         <option value="$PROJECT_DIR$/../binary_tree/parentchildtree.js" />
         <option value="$PROJECT_DIR$/../__test__/parentchildtree.test.js" />
+        <option value="$PROJECT_DIR$/../README.md" />
       </list>
     </option>
   </component>
@@ -235,8 +248,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="236" />
-    <option name="y" value="229" />
+    <option name="x" value="941" />
+    <option name="y" value="27" />
     <option name="width" value="979" />
     <option name="height" value="1047" />
   </component>
@@ -312,8 +325,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../../assets" />
       <recent name="$PROJECT_DIR$/../assets" />
+      <recent name="$PROJECT_DIR$/../../assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,7 +341,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.#parentchildtree.js.Trees have no nodes">
+  <component name="RunManager" selected="Jest.#parentchildtree.js">
+    <configuration name="#parentchildtree.js" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/.." />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/../__test__/parentchildtree.test.js" />
+      <test-names>
+        <test-name value="#parentchildtree.js" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="#parentchildtree.js.Trees have common nodes" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -381,33 +406,20 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="#tree_intersection.js.Trees have no common nodes" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <working-dir value="$PROJECT_DIR$/../.." />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/../../__test__/treeIntersection.test.js" />
-      <test-names>
-        <test-name value="#tree_intersection.js" />
-        <test-name value="Trees have no common nodes" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Jest.#tree_intersection.js.Trees have no common nodes" />
       <item itemvalue="Jest.#tree_intersection.js.Trees have common nodes (1)" />
       <item itemvalue="Jest.#tree_intersection.js.Trees have common nodes (2)" />
       <item itemvalue="Jest.#parentchildtree.js.Trees have common nodes" />
       <item itemvalue="Jest.#parentchildtree.js.Trees have no nodes" />
+      <item itemvalue="Jest.#parentchildtree.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.#parentchildtree.js" />
         <item itemvalue="Jest.#parentchildtree.js.Trees have no nodes" />
         <item itemvalue="Jest.#parentchildtree.js.Trees have common nodes" />
         <item itemvalue="Jest.#tree_intersection.js.Trees have common nodes (2)" />
         <item itemvalue="Jest.#tree_intersection.js.Trees have common nodes (1)" />
-        <item itemvalue="Jest.#tree_intersection.js.Trees have no common nodes" />
       </list>
     </recent_temporary>
   </component>
@@ -442,14 +454,11 @@
       <workItem from="1539834212967" duration="3016000" />
       <workItem from="1539839489751" duration="4903000" />
       <workItem from="1540167497914" duration="2241000" />
-      <workItem from="1540169761890" duration="2319000" />
+      <workItem from="1540169761890" duration="2670000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="#tree_intersection_js_Trees_have_common_nodes_(1) - 2018.10.21 at 17h 53m 28s.xml">
-      <configuration name="#tree_intersection.js.Trees have common nodes (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="#tree_intersection_js_Trees_have_common_nodes_(2) - 2018.10.21 at 17h 55m 24s.xml">
       <configuration name="#tree_intersection.js.Trees have common nodes (2)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -477,12 +486,15 @@
     <history-entry file="#parentchildtree_js_Trees_have_no_nodes - 2018.10.21 at 18h 18m 47s.xml">
       <configuration name="#parentchildtree.js.Trees have no nodes" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="#parentchildtree_js - 2018.10.21 at 18h 39m 09s.xml">
+      <configuration name="#parentchildtree.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52706000" />
+    <option name="totallyTimeSpent" value="53057000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="229" width="979" height="1047" extended-state="0" />
+    <frame x="941" y="27" width="979" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18514644" />
@@ -591,8 +603,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../__test__/parentchildtree.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="299">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="466">
+            <caret line="112" column="49" selection-start-line="112" selection-start-column="49" selection-end-line="112" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
