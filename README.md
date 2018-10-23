@@ -111,3 +111,10 @@ Write a function that takes in 2 values and a binary tree as arguments
 return true if the first value given is a parent of the second value
 ### Solution
 ![parentchildtree](assets/parentchildtree.jpg "parentchildtree")
+
+## Multi Bracket Validation
+This challenge included creating a function that takes two values and a binary tree and returning true if the first value is a parent of the second value in the tree.
+### Challenge
+Your function should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets:
+### Solution
+![multiBracketValidation](assets/parentchildtree.jpg "multibracketvalidation")
