@@ -10,6 +10,7 @@ class Stack {
   }
 
   pop() {
+    console.log(this.stackStorage);
     return this.stackStorage.pop();
   }
 }
