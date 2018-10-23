@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3cee700e-d50c-4b3c-9268-ac64dff95fdc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../queue_with_stacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../queue_with_stacks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,20 +37,20 @@
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="false">
+            <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/../../multi-bracket-validation.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="700">
-                    <caret line="25" selection-start-line="25" selection-end-line="25" />
+                  <state relative-caret-position="644">
+                    <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
                   </state>
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="true">
+            <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/../../__test__/multiBracketValidation.test.js">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="636">
-                    <caret line="38" column="78" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
+                    <caret line="38" column="80" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
                   </state>
                 </provider>
               </entry>
@@ -135,7 +135,7 @@
           <entry key="LICENSE" value="1" />
           <entry key="eslintignore" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="jpg" value="2" />
+          <entry key="jpg" value="3" />
           <entry key="js" value="24" />
           <entry key="json" value="2" />
           <entry key="md" value="2" />
@@ -144,7 +144,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="2" />
+          <entry key="Image" value="3" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="24" />
           <entry key="Markdown" value="2" />
@@ -160,13 +160,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="6942" />
-          <entry key="md" value="1953" />
+          <entry key="md" value="2025" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="6942" />
-          <entry key="Markdown" value="1953" />
+          <entry key="Markdown" value="2025" />
         </counts>
       </usages-collector>
     </session>
@@ -177,12 +177,17 @@
         <entry file="file://$PROJECT_DIR$/../../README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="397">
-                <caret line="112" column="49" selection-start-line="112" selection-start-column="49" selection-end-line="112" selection-end-column="49" />
+              <first_editor relative-caret-position="266">
+                <caret line="100" column="13" lean-forward="true" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../assets/array_shift.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -216,7 +221,6 @@
         <option value="$PROJECT_DIR$/../../__test__/fizzbuzztree.test.js" />
         <option value="$PROJECT_DIR$/../../__test__/repeatedWord.test.js" />
         <option value="$PROJECT_DIR$/../../__test__/treeIntersection.test.js" />
-        <option value="$PROJECT_DIR$/../../README.md" />
         <option value="$PROJECT_DIR$/../../binary_tree/parentchildtree.js" />
         <option value="$PROJECT_DIR$/../binary_tree/parentchildtree.js" />
         <option value="$PROJECT_DIR$/../README.md" />
@@ -224,6 +228,7 @@
         <option value="$PROJECT_DIR$/../../queue_with_stacks.js" />
         <option value="$PROJECT_DIR$/../../multi-bracket-validation.js" />
         <option value="$PROJECT_DIR$/../../__test__/multiBracketValidation.test.js" />
+        <option value="$PROJECT_DIR$/../../README.md" />
       </list>
     </option>
   </component>
@@ -243,7 +248,7 @@
       <path value="$PROJECT_DIR$/../../package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="941" />
     <option name="y" value="27" />
     <option name="width" value="979" />
@@ -451,7 +456,7 @@
       <workItem from="1539839489751" duration="4903000" />
       <workItem from="1540167497914" duration="2241000" />
       <workItem from="1540169761890" duration="3917000" />
-      <workItem from="1540251532020" duration="7070000" />
+      <workItem from="1540251532020" duration="7371000" />
     </task>
     <servers />
   </component>
@@ -488,18 +493,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61374000" />
+    <option name="totallyTimeSpent" value="61675000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="941" y="27" width="979" height="1047" extended-state="0" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18514644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.096721314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24972677" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32568306" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32286024" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2383532" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -571,16 +576,6 @@
     <entry file="file://$PROJECT_DIR$/../../assets/tree_intersection.jpg" />
     <entry file="file://$PROJECT_DIR$/../../binary_tree/parentchildtree.js" />
     <entry file="file://$PROJECT_DIR$/../../hashmaps/tree_intersection.js" />
-    <entry file="file://$PROJECT_DIR$/../../README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="397">
-            <caret line="112" column="49" selection-start-line="112" selection-start-column="49" selection-end-line="112" selection-end-column="49" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../binary_tree/parentchildtree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -629,17 +624,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../multi-bracket-validation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../__test__/multiBracketValidation.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
-          <caret line="38" column="78" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
+          <caret line="38" column="80" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../multi-bracket-validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../assets/array_shift.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="100" column="13" lean-forward="true" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
