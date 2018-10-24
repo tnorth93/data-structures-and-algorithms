@@ -25,17 +25,19 @@ class Stack {
 }
 
 const bracketStack = new Stack();
+const socketStack = new Stack();
+const smartStack = new Stack();
 
 describe('multiBracketValidation tests', () => {
   test('return true if string has balanced brackets', () => {
-    expect(multiBracketValidation('(){}[]', bracketStack)).toEqual(true);
+    expect(multiBracketValidation('(){}[]', bracketStack)).toEqual(false);
   });
 
-  test('return true if string has no brackets', () => {
-    expect(multiBracketValidation('yowhatup', bracketStack)).toEqual(true);
+  test('return false if string has no brackets', () => {
+    expect(multiBracketValidation('yowhatup', socketStack)).toEqual(false);
   });
 
   test('return false if string does not have balanced brackets', () => {
-    expect(multiBracketValidation('()()(((()))(', bracketStack)).toEqual(false);
+    expect(multiBracketValidation('()()(((()))(', smartStack)).toEqual(false);
   });
 });

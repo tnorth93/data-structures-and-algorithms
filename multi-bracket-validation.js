@@ -3,9 +3,8 @@
 module.exports = function multiBracketValidation(str, bracketStack) {
   const stringArray = str.split('');
   for (let i = 0; i < stringArray.length; i++) {
-    if (stringArray[i] === '(' || '[' || '{') {
+    if (stringArray[i] === '(' || stringArray[i] === '[' || stringArray[i] === '{') {
       bracketStack.push(stringArray[i]);
-      console.log(bracketStack);
     }
     if (stringArray[i] === ')') {
       if (bracketStack.peek() === '(') {
@@ -23,8 +22,12 @@ module.exports = function multiBracketValidation(str, bracketStack) {
       }
     }
   }
-  if (bracketStack.length === 0) {
-    return false;
+  if (!bracketStack) {
+    return true;
   }
-  return true;
+  if (bracketStack.length === 0) {
+    console.log(bracketStack);
+    return true;
+  }
+  return false;
 };
