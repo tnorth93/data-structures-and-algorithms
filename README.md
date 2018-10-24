@@ -117,4 +117,11 @@ This challenge included creating a function that takes two values and a binary t
 ### Challenge
 Your function should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets:
 ### Solution
-![multiBracketValidation](assets/parentchildtree.jpg "multibracketvalidation")
+![multiBracketValidation](.assets/parentchildtree.jpg "multibracketvalidation")
+
+## Bishop and Pawn
+Given a 2d array, locate a bishop and pawn on the board and see whether or not the bishop could destroy the pawn from their positions
+### Challenge
+Your function should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets:
+### Solution
+![bishopAndPawn](assets/bishopAndPawn.jpg "bishopAndPawn")
