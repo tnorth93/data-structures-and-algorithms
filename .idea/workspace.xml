@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cee700e-d50c-4b3c-9268-ac64dff95fdc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../assets/bishopAndPawn.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../__test__/multiBracketValidation.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../__test__/multiBracketValidation.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../multi-bracket-validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../multi-bracket-validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -161,25 +161,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="7543" />
-          <entry key="md" value="2025" />
+          <entry key="md" value="2224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="7543" />
-          <entry key="Markdown" value="2025" />
+          <entry key="Markdown" value="2224" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="220">
-                <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+              <first_editor relative-caret-position="405">
+                <caret line="126" column="58" lean-forward="true" selection-start-line="126" selection-start-column="58" selection-end-line="126" selection-end-column="58" />
               </first_editor>
               <second_editor />
             </state>
@@ -195,7 +195,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../__test__/bishopAndPawn.test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
@@ -268,11 +268,11 @@
         <option value="$PROJECT_DIR$/../README.md" />
         <option value="$PROJECT_DIR$/../__test__/parentchildtree.test.js" />
         <option value="$PROJECT_DIR$/../../queue_with_stacks.js" />
-        <option value="$PROJECT_DIR$/../../README.md" />
         <option value="$PROJECT_DIR$/../../bishopAndPawn/bishop-and-pawn.js" />
         <option value="$PROJECT_DIR$/../../__test__/bishopAndPawn.test.js" />
         <option value="$PROJECT_DIR$/../../multi-bracket-validation.js" />
         <option value="$PROJECT_DIR$/../../__test__/multiBracketValidation.test.js" />
+        <option value="$PROJECT_DIR$/../../README.md" />
       </list>
     </option>
   </component>
@@ -375,8 +375,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../assets" />
       <recent name="$PROJECT_DIR$/../../assets" />
+      <recent name="$PROJECT_DIR$/../assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -505,7 +505,7 @@
       <workItem from="1540167497914" duration="2241000" />
       <workItem from="1540169761890" duration="3917000" />
       <workItem from="1540251532020" duration="7852000" />
-      <workItem from="1540344622548" duration="4284000" />
+      <workItem from="1540344622548" duration="5139000" />
     </task>
     <servers />
   </component>
@@ -542,7 +542,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66440000" />
+    <option name="totallyTimeSpent" value="67295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -655,16 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../__test__/treeIntersection.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -689,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../__test__/bishopAndPawn.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../queue_with_stacks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -714,6 +697,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="37" column="5" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../__test__/bishopAndPawn.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="405">
+            <caret line="126" column="58" lean-forward="true" selection-start-line="126" selection-start-column="58" selection-end-line="126" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
