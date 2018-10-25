@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cee700e-d50c-4b3c-9268-ac64dff95fdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../assets/stringCounter.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hashmaps/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hashmaps/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,8 +31,8 @@
               <entry file="file://$PROJECT_DIR$/../README.md">
                 <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                   <state split_layout="SPLIT">
-                    <first_editor relative-caret-position="759">
-                      <caret line="133" column="51" lean-forward="true" selection-start-line="133" selection-start-column="51" selection-end-line="133" selection-end-column="51" />
+                    <first_editor relative-caret-position="713">
+                      <caret line="131" column="114" selection-start-line="131" selection-start-column="114" selection-end-line="131" selection-end-column="114" />
                     </first_editor>
                     <second_editor />
                   </state>
@@ -111,14 +108,14 @@
         <counts>
           <entry key="js" value="4123" />
           <entry key="json" value="37" />
-          <entry key="md" value="644" />
+          <entry key="md" value="645" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="37" />
           <entry key="JavaScript" value="4123" />
-          <entry key="Markdown" value="644" />
+          <entry key="Markdown" value="645" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -1118,7 +1115,7 @@
       <workItem from="1540169761890" duration="3917000" />
       <workItem from="1540251532020" duration="7852000" />
       <workItem from="1540344622548" duration="5739000" />
-      <workItem from="1540438383081" duration="2514000" />
+      <workItem from="1540438383081" duration="2617000" />
     </task>
     <servers />
   </component>
@@ -1155,7 +1152,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70409000" />
+    <option name="totallyTimeSpent" value="70512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -1274,8 +1271,8 @@
     <entry file="file://$PROJECT_DIR$/../README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="759">
-            <caret line="133" column="51" lean-forward="true" selection-start-line="133" selection-start-column="51" selection-end-line="133" selection-end-column="51" />
+          <first_editor relative-caret-position="713">
+            <caret line="131" column="114" selection-start-line="131" selection-start-column="114" selection-end-line="131" selection-end-column="114" />
           </first_editor>
           <second_editor />
         </state>
