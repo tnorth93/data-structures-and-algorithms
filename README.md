@@ -129,6 +129,6 @@ Your function should take a string as its only argument, and should return a boo
 ## String Counter
 Given a string, return each unique character present in the string along with a counter showing the number of times each character appears.
 ### Challenge
-We had to figure out the optimal data structure to solve this which helped me identify the strengths of a hashmap
+We had to figure out the optimal data structure to solve this which helped me identify the strengths of a hashmap.
 ### Solution
 ![stringCounter](stringCounter.jpg "stringCounter")
