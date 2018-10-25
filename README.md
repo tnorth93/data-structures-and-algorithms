@@ -125,3 +125,10 @@ Given a 2d array, locate a bishop and pawn on the board and see whether or not t
 Your function should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets:
 ### Solution
 ![bishopAndPawn](assets/bishopAndPawn.jpg "bishopAndPawn")
+
+## String Counter
+Given a string, return each unique character present in the string along with a counter showing the number of times each character appears.
+### Challenge
+We had to figure out the optimal data structure to solve this which helped me identify the strengths of a hashmap
+### Solution
+![stringCounter](stringCounter.jpg "stringCounter")
