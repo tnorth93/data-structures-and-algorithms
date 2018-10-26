@@ -126,4 +126,64 @@ module.exports = class LinkedList {
     }
     return ll1;
   }
+
+  reverseLLArray() {
+    if (this.head) {
+      return undefined;
+    }
+    let cn = this.head;
+    const helperArray = [];
+    while (cn) {
+      helperArray.push(cn);
+      cn = cn.next;
+    }
+    const reversedLL = new LinkedList();
+    reversedLL.head = new Node(helperArray.pop());
+    reversedLL.head.next = helperArray.pop();
+    for (let i = helperArray.length; i > 0; i--) {
+      reversedLL.append(helperArray.pop());
+    }
+    return reversedLL;
+  }
+
+  reverseLLHelper() {
+    if (this.head) {
+      return undefined;
+    }
+    let cn = this.head;
+    let target = null;
+    let previous = null;
+    while (cn !== null) {
+      target = cn.next;
+      cn.next = previous;
+      previous = cn;
+      cn = target;
+    }
+    this.head = previous;
+    return this;
+  }
+
+  reverseLLMap() {
+    if (this.head) {
+      return undefined;
+    }
+    let keyCounter = 0;
+    let cn = this.head;
+    const helperMap = new Map();
+    while (cn) {
+      helperMap.set(keyCounter, cn.value);
+      cn = cn.next;
+      keyCounter += 1;
+    }
+    const reversedLL = new LinkedList();
+    reversedLL.head = helperMap.get(keyCounter - 1);
+    console.log(reversedLL);
+    console.log(helperMap);
+    while (keyCounter > 0) {
+      const node = new Node(helperMap.get(keyCounter));
+      reversedLL.append(node);
+      keyCounter -= 1;
+    }
+    return reversedLL.head.next;
+  }
 };

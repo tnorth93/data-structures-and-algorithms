@@ -100,4 +100,30 @@ describe('#index.js', () => {
       }).toThrow();
     });
   });
+
+  test('reverseArray', () => {
+    const one = new LinkedList();
+    one.insertAtHead(0);
+    one.append(1);
+    one.append(2);
+    one.append(3);
+    one.append(4);
+    expect(one.reverseLLArray()).toEqual(undefined);
+  });
+  test('reverseHelper', () => {
+    const two = new LinkedList();
+    two.insertAtHead(0);
+    two.append(1);
+    two.append(2);
+    two.append(3);
+    two.append(4);
+  });
+  test('reverseHashmap', () => {
+    const three = new LinkedList();
+    three.insertAtHead(0);
+    three.append(1);
+    three.append(2);
+    three.append(3);
+    three.append(4);
+  });
 });
