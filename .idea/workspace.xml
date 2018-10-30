@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cee700e-d50c-4b3c-9268-ac64dff95fdc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../linked-lists/__tests__/ll.tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../linked-lists/__tests__/ll.tests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../linked-lists/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../linked-lists/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linked-lists/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../linked-lists/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -91,7 +91,7 @@
         <counts>
           <entry key="LICENSE" value="1" />
           <entry key="eslintignore" value="1" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="3" />
           <entry key="jpg" value="3" />
           <entry key="js" value="35" />
           <entry key="json" value="2" />
@@ -105,7 +105,7 @@
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="35" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -139,11 +139,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../linked-lists/__tests__/ll.tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="133" column="50" lean-forward="true" selection-start-line="133" selection-start-column="50" selection-end-line="133" selection-end-column="50" />
+            <state relative-caret-position="571">
+              <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../linked-lists/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5633">
+              <caret line="246" column="92" selection-start-line="246" selection-start-column="92" selection-end-line="246" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="826">
+              <caret line="246" column="92" selection-start-line="246" selection-start-column="92" selection-end-line="246" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -191,6 +209,8 @@
         <option value="$PROJECT_DIR$/../README.md" />
         <option value="$PROJECT_DIR$/../../linked-lists/index.js" />
         <option value="$PROJECT_DIR$/../../linked-lists/__tests__/ll.tests.js" />
+        <option value="$PROJECT_DIR$/../../linked-lists/.gitignore" />
+        <option value="$PROJECT_DIR$/../../.gitignore" />
       </list>
     </option>
   </component>
@@ -443,7 +463,7 @@
       <workItem from="1540251532020" duration="7852000" />
       <workItem from="1540344622548" duration="5739000" />
       <workItem from="1540438383081" duration="3578000" />
-      <workItem from="1540856282129" duration="2666000" />
+      <workItem from="1540856282129" duration="2786000" />
     </task>
     <servers />
   </component>
@@ -480,7 +500,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74139000" />
+    <option name="totallyTimeSpent" value="74259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1129" height="1047" extended-state="0" />
@@ -538,7 +558,6 @@
     <entry file="file://$PROJECT_DIR$/../../package-lock.json" />
     <entry file="file://$PROJECT_DIR$/../../.eslintignore" />
     <entry file="file://$PROJECT_DIR$/../../.eslintrc.json" />
-    <entry file="file://$PROJECT_DIR$/../../.gitignore" />
     <entry file="file://$PROJECT_DIR$/../../LICENSE" />
     <entry file="file://$PROJECT_DIR$/../../.travis.yml" />
     <entry file="file://$PROJECT_DIR$/../../package.json" />
@@ -613,8 +632,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../linked-lists/__tests__/ll.tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="133" column="50" lean-forward="true" selection-start-line="133" selection-start-column="50" selection-end-line="133" selection-end-column="50" />
+        <state relative-caret-position="571">
+          <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../linked-lists/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5633">
+          <caret line="246" column="92" selection-start-line="246" selection-start-column="92" selection-end-line="246" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="246" column="92" selection-start-line="246" selection-start-column="92" selection-end-line="246" selection-end-column="92" />
         </state>
       </provider>
     </entry>
