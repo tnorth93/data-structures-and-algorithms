@@ -131,4 +131,13 @@ Given a string, return each unique character present in the string along with a 
 ### Challenge
 We had to figure out the optimal data structure to solve this which helped me identify the strengths of a hashmap.
 ### Solution
-![stringCounter](stringCounter.jpg "stringCounter")
+![stringCounter](assets/stringCounter.jpg "stringCounter")
+
+## Reverse Linked List
+Create 3 unique methods that reverse a linked list
+### Challenge
+This was a tough challenge in which I created 3 unique methods for my linked list class that I created in earlier challenges.
+The 3 approaches I took included using a couple helper variables to keep track of nodes, using an array to push and pop values onto the existing list, and 
+using a hashmap to set and get the values of the original linked list to go back over the old list and update values
+### Solution
+![reverseLL](assets/reverseLL.jpg "reverseLL")
