@@ -101,23 +101,28 @@ describe('#index.js', () => {
     });
   });
 
-  test('reverseArray', () => {
+  test('reverseHelper', () => {
     const one = new LinkedList();
     one.insertAtHead(0);
     one.append(1);
     one.append(2);
     one.append(3);
     one.append(4);
-    expect(one.reverseLLArray()).toEqual(undefined);
+    expect(one.reverseLLHelper().head.value).toEqual(4);
+    expect(one.head.next.next.next.next.value).toEqual(0);
   });
-  test('reverseHelper', () => {
+
+  test('reverseArray', () => {
     const two = new LinkedList();
     two.insertAtHead(0);
     two.append(1);
     two.append(2);
     two.append(3);
     two.append(4);
+    expect(two.reverseLLArray().head.value).toEqual(4);
+    expect(two.head.next.next.value).toEqual(2);
   });
+
   test('reverseHashmap', () => {
     const three = new LinkedList();
     three.insertAtHead(0);
@@ -125,5 +130,7 @@ describe('#index.js', () => {
     three.append(2);
     three.append(3);
     three.append(4);
+    expect(three.reverseLLMap().head.value).toEqual(4);
+    expect(three.head.next.next.value).toEqual(2);
   });
 });

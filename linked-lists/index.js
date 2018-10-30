@@ -128,26 +128,25 @@ module.exports = class LinkedList {
   }
 
   reverseLLArray() {
-    if (this.head) {
+    if (!this.head) {
       return undefined;
     }
     let cn = this.head;
     const helperArray = [];
     while (cn) {
-      helperArray.push(cn);
+      helperArray.push(cn.value);
       cn = cn.next;
     }
-    const reversedLL = new LinkedList();
-    reversedLL.head = new Node(helperArray.pop());
-    reversedLL.head.next = helperArray.pop();
-    for (let i = helperArray.length; i > 0; i--) {
-      reversedLL.append(helperArray.pop());
+    cn = this.head;
+    for (let i = 0; i < helperArray.length; i++) {
+      cn.value = helperArray.pop();
+      cn = cn.next;
     }
-    return reversedLL;
+    return this;
   }
 
   reverseLLHelper() {
-    if (this.head) {
+    if (!this.head) {
       return undefined;
     }
     let cn = this.head;
@@ -164,26 +163,23 @@ module.exports = class LinkedList {
   }
 
   reverseLLMap() {
-    if (this.head) {
+    if (!this.head) {
       return undefined;
     }
     let keyCounter = 0;
     let cn = this.head;
     const helperMap = new Map();
     while (cn) {
+      keyCounter += 1;
       helperMap.set(keyCounter, cn.value);
       cn = cn.next;
-      keyCounter += 1;
     }
-    const reversedLL = new LinkedList();
-    reversedLL.head = helperMap.get(keyCounter - 1);
-    console.log(reversedLL);
-    console.log(helperMap);
-    while (keyCounter > 0) {
-      const node = new Node(helperMap.get(keyCounter));
-      reversedLL.append(node);
+    cn = this.head;
+    while (keyCounter !== 0) {
+      cn.value = helperMap.get(keyCounter);
+      cn = cn.next;
       keyCounter -= 1;
     }
-    return reversedLL.head.next;
+    return this;
   }
 };
