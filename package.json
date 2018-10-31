@@ -21,7 +21,8 @@
     "eslint": "^5.5.0",
     "eslint-plugin-dependencies": "^2.4.0",
     "eslint-plugin-jest": "^21.22.0",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "queue": "^4.5.0"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^13.1.0",

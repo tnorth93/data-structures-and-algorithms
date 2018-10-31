@@ -141,3 +141,10 @@ The 3 approaches I took included using a couple helper variables to keep track o
 using a hashmap to set and get the values of the original linked list to go back over the old list and update values
 ### Solution
 ![reverseLL](assets/reverseLL.jpg "reverseLL")
+
+## Breadth First Search
+Create a function to traverse a graph using breadth first search.
+### Challenge
+Create a function for that traverses a graph using breadth first. Inputs are a graph, starting node, and target node.
+### Solution
+![bFs](assets/bfs.jpg "BFS")

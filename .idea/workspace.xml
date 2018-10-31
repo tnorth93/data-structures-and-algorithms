@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cee700e-d50c-4b3c-9268-ac64dff95fdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../assets/reverseLL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assets/bfs.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -80,11 +82,11 @@
     <session id="-2096866610">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="5" />
-          <entry key="project.open.time.2" value="4" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -93,7 +95,7 @@
           <entry key="eslintignore" value="1" />
           <entry key="gitignore" value="3" />
           <entry key="jpg" value="3" />
-          <entry key="js" value="35" />
+          <entry key="js" value="46" />
           <entry key="json" value="2" />
           <entry key="md" value="4" />
           <entry key="yml" value="1" />
@@ -103,7 +105,7 @@
         <counts>
           <entry key="Image" value="3" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="35" />
+          <entry key="JavaScript" value="46" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="YAML" value="1" />
@@ -111,79 +113,99 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="13" />
+          <entry key="ESLintLanguageService" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="8330" />
-          <entry key="md" value="2805" />
+          <entry key="js" value="8728" />
+          <entry key="md" value="3092" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="8330" />
-          <entry key="Markdown" value="2805" />
+          <entry key="JavaScript" value="8728" />
+          <entry key="Markdown" value="3092" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../linked-lists/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="176" column="19" selection-start-line="176" selection-start-column="19" selection-end-line="176" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../linked-lists/__tests__/ll.tests.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../linked-lists/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5633">
-              <caret line="246" column="92" selection-start-line="246" selection-start-column="92" selection-end-line="246" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="231" selection-start-line="231" selection-end-line="231" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../linked-lists/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="580">
-                <caret line="137" column="13" lean-forward="true" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/../../__test__/bfs.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../binary_tree/fizzbuzztree.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../binary_tree/parentchildtree.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../__test__/queue.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../hashmaps/tree_intersection.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../hashmaps/string-counter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../hashmaps/repeated_word.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../bishopAndPawn/bishop-and-pawn.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../__test__/parentchildtree.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" selection-start-line="19" selection-end-line="31" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../binary_tree/lib/node.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -233,6 +255,7 @@
         <option value="$PROJECT_DIR$/../../linked-lists/.gitignore" />
         <option value="$PROJECT_DIR$/../../.gitignore" />
         <option value="$PROJECT_DIR$/../../README.md" />
+        <option value="$PROJECT_DIR$/../../__test__/bfs.test.js" />
       </list>
     </option>
   </component>
@@ -304,6 +327,12 @@
             <path>
               <item name="." type="b2602c69:ProjectViewProjectNode" />
               <item name="data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="binary_tree" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="." type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures-and-algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="bishopAndPawn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -368,7 +397,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.#string-counter.js.Values do not have a parent-child relationship, should return false">
+  <component name="RunManager" selected="Jest.#letter-count.js.does it return the correct count for each letter">
     <configuration name="#bishop-and-pawn.js" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -381,16 +410,29 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="#bishop-and-pawn.js.Should return true if pawn can be hit by bishop" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="#letter-count.js.does it return the correct count for each letter" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$/../.." />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/../../__test__/bishopAndPawn.test.js" />
+      <test-file value="$PROJECT_DIR$/../../__test__/bfs.test.js" />
       <test-names>
-        <test-name value="#bishop-and-pawn.js" />
-        <test-name value="Should return true if pawn can be hit by bishop" />
+        <test-name value="#letter-count.js" />
+        <test-name value="does it return the correct count for each letter" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="#parentchildtree.js.return correct path" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/../.." />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/../../__test__/bfs.test.js" />
+      <test-names>
+        <test-name value="#parentchildtree.js" />
+        <test-name value="return correct path" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -420,33 +462,20 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="multiBracketValidation tests.return a tree node that began with a value of 3, but has had its value changed to fizz" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <working-dir value="$PROJECT_DIR$/../.." />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/../../__test__/multiBracketValidation.test.js" />
-      <test-names>
-        <test-name value="multiBracketValidation tests" />
-        <test-name value="return a tree node that began with a value of 3, but has had its value changed to fizz" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Jest.multiBracketValidation tests.return a tree node that began with a value of 3, but has had its value changed to fizz" />
-      <item itemvalue="Jest.#bishop-and-pawn.js.Should return true if pawn can be hit by bishop" />
       <item itemvalue="Jest.#bishop-and-pawn.js" />
       <item itemvalue="Jest.#string-counter.js.Values have a parent-child relationship, should return true" />
       <item itemvalue="Jest.#string-counter.js.Values do not have a parent-child relationship, should return false" />
+      <item itemvalue="Jest.#parentchildtree.js.return correct path" />
+      <item itemvalue="Jest.#letter-count.js.does it return the correct count for each letter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.#letter-count.js.does it return the correct count for each letter" />
+        <item itemvalue="Jest.#parentchildtree.js.return correct path" />
         <item itemvalue="Jest.#string-counter.js.Values do not have a parent-child relationship, should return false" />
         <item itemvalue="Jest.#string-counter.js.Values have a parent-child relationship, should return true" />
         <item itemvalue="Jest.#bishop-and-pawn.js" />
-        <item itemvalue="Jest.#bishop-and-pawn.js.Should return true if pawn can be hit by bishop" />
-        <item itemvalue="Jest.multiBracketValidation tests.return a tree node that began with a value of 3, but has had its value changed to fizz" />
       </list>
     </recent_temporary>
   </component>
@@ -485,55 +514,56 @@
       <workItem from="1540251532020" duration="7852000" />
       <workItem from="1540344622548" duration="5739000" />
       <workItem from="1540438383081" duration="3578000" />
-      <workItem from="1540856282129" duration="3725000" />
+      <workItem from="1540856282129" duration="4220000" />
+      <workItem from="1540944010341" duration="4353000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="#parentchildtree_js_Trees_have_common_nodes - 2018.10.21 at 18h 07m 08s.xml">
-      <configuration name="#parentchildtree.js.Trees have common nodes" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#parentchildtree_js_return_correct_path - 2018.10.30 at 17h 36m 28s.xml">
+      <configuration name="#parentchildtree.js.return correct path" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="#tree_intersection_js_Trees_have_common_nodes_(2) - 2018.10.21 at 18h 08m 41s.xml">
-      <configuration name="#tree_intersection.js.Trees have common nodes (2)" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#parentchildtree_js_return_correct_path - 2018.10.30 at 17h 37m 14s.xml">
+      <configuration name="#parentchildtree.js.return correct path" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="#parentchildtree_js_Trees_have_common_nodes - 2018.10.21 at 18h 09m 06s.xml">
-      <configuration name="#parentchildtree.js.Trees have common nodes" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#parentchildtree_js_return_correct_path - 2018.10.30 at 17h 38m 03s.xml">
+      <configuration name="#parentchildtree.js.return correct path" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="#parentchildtree_js_Trees_have_no_nodes - 2018.10.21 at 18h 18m 47s.xml">
-      <configuration name="#parentchildtree.js.Trees have no nodes" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#parentchildtree_js_return_correct_path - 2018.10.30 at 17h 39m 58s.xml">
+      <configuration name="#parentchildtree.js.return correct path" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="#parentchildtree_js - 2018.10.21 at 18h 39m 09s.xml">
-      <configuration name="#parentchildtree.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#parentchildtree_js_return_correct_path - 2018.10.30 at 17h 43m 44s.xml">
+      <configuration name="#parentchildtree.js.return correct path" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="multiBracketValidation_tests_return_a_tree_node_that_began_with_a_value_of_3,_but_has_had_its_value_changed_to_fizz - 2018.10.22 at 21h 54m 32s.xml">
-      <configuration name="multiBracketValidation tests.return a tree node that began with a value of 3, but has had its value changed to fizz" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#parentchildtree_js_return_correct_path - 2018.10.30 at 17h 44m 44s.xml">
+      <configuration name="#parentchildtree.js.return correct path" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="#bishop-and-pawn_js_Should_return_true_if_pawn_can_be_hit_by_bishop - 2018.10.23 at 18h 59m 38s.xml">
-      <configuration name="#bishop-and-pawn.js.Should return true if pawn can be hit by bishop" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#parentchildtree_js_return_correct_path - 2018.10.30 at 17h 46m 52s.xml">
+      <configuration name="#parentchildtree.js.return correct path" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="#bishop-and-pawn_js - 2018.10.23 at 19h 00m 40s.xml">
-      <configuration name="#bishop-and-pawn.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#letter-count_js_does_it_return_the_correct_count_for_each_letter - 2018.10.30 at 21h 21m 09s.xml">
+      <configuration name="#letter-count.js.does it return the correct count for each letter" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="#string-counter_js_Values_have_a_parent-child_relationship,_should_return_true - 2018.10.24 at 20h 48m 48s.xml">
-      <configuration name="#string-counter.js.Values have a parent-child relationship, should return true" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#letter-count_js_does_it_return_the_correct_count_for_each_letter - 2018.10.30 at 21h 21m 40s.xml">
+      <configuration name="#letter-count.js.does it return the correct count for each letter" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="#string-counter_js_Values_do_not_have_a_parent-child_relationship,_should_return_false - 2018.10.24 at 20h 59m 13s.xml">
-      <configuration name="#string-counter.js.Values do not have a parent-child relationship, should return false" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#letter-count_js_does_it_return_the_correct_count_for_each_letter - 2018.10.30 at 21h 24m 27s.xml">
+      <configuration name="#letter-count.js.does it return the correct count for each letter" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75198000" />
+    <option name="totallyTimeSpent" value="80046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1129" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16003616" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16003616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24972677" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32286024" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41857922" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2383532" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -587,43 +617,20 @@
     <entry file="file://$PROJECT_DIR$/../../lib/array_reverse.js" />
     <entry file="file://$PROJECT_DIR$/../../__test__/shift.test.js" />
     <entry file="file://$PROJECT_DIR$/../../lib/array_shift.js" />
-    <entry file="file://$PROJECT_DIR$/../../__test__/queue.test.js" />
     <entry file="file://$PROJECT_DIR$/../../binary_tree/lib/binaryTree.js" />
     <entry file="file://$PROJECT_DIR$/../../fifo_animal_shelter.js" />
     <entry file="file://$PROJECT_DIR$/../../__test__/repeatedWord.test.js" />
     <entry file="file://$PROJECT_DIR$/../../binary_tree/lib/tree.js" />
     <entry file="file://$PROJECT_DIR$/../../assets/fizzbuzztree.jpg" />
     <entry file="file://$PROJECT_DIR$/../../animal.js" />
-    <entry file="file://$PROJECT_DIR$/../../binary_tree/fizzbuzztree.js" />
     <entry file="file://$PROJECT_DIR$/../../assets/tree_intersection.jpg" />
-    <entry file="file://$PROJECT_DIR$/../../binary_tree/parentchildtree.js" />
-    <entry file="file://$PROJECT_DIR$/../../__test__/parentchildtree.test.js" />
-    <entry file="file://$PROJECT_DIR$/../../hashmaps/tree_intersection.js" />
     <entry file="file://$PROJECT_DIR$/../../assets/array_shift.jpg" />
-    <entry file="file://$PROJECT_DIR$/../../__test__/fizzbuzztree.test.js" />
     <entry file="file://$PROJECT_DIR$/../../__test__/treeIntersection.test.js" />
-    <entry file="file://$PROJECT_DIR$/../../hashmaps/repeated_word.js" />
-    <entry file="file://$PROJECT_DIR$/../../bishopAndPawn/bishop-and-pawn.js" />
     <entry file="file://$PROJECT_DIR$/../../__test__/fifoAnimalShelter.test.js" />
     <entry file="file://$PROJECT_DIR$/../../queue_with_stacks.js" />
     <entry file="file://$PROJECT_DIR$/../../multi-bracket-validation.js" />
     <entry file="file://$PROJECT_DIR$/../../__test__/multiBracketValidation.test.js" />
     <entry file="file://$PROJECT_DIR$/../../__test__/bishopAndPawn.test.js" />
-    <entry file="file://$PROJECT_DIR$/../../README.md" />
-    <entry file="file://$PROJECT_DIR$/../../__test__/parentchildtree.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../hashmaps/string-counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/IMG_20181024_143828677.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -636,28 +643,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../linked-lists/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
+        <state relative-caret-position="4048">
           <caret line="176" column="19" selection-start-line="176" selection-start-column="19" selection-end-line="176" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../linked-lists/__tests__/ll.tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
+        <state relative-caret-position="2967">
           <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../linked-lists/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5633">
+        <state relative-caret-position="5658">
           <caret line="246" column="92" selection-start-line="246" selection-start-column="92" selection-end-line="246" selection-end-column="92" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
+        <state relative-caret-position="5313">
           <caret line="231" selection-start-line="231" selection-end-line="231" />
         </state>
       </provider>
@@ -674,9 +681,70 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="580">
-            <caret line="137" column="13" lean-forward="true" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+            <caret line="144" column="23" lean-forward="true" selection-start-line="144" selection-start-column="23" selection-end-line="144" selection-end-column="23" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../__test__/fizzbuzztree.test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../bishopAndPawn/bishop-and-pawn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../__test__/queue.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../hashmaps/repeated_word.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../hashmaps/string-counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../hashmaps/tree_intersection.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../__test__/parentchildtree.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" selection-start-line="19" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../binary_tree/lib/node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../binary_tree/parentchildtree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../binary_tree/fizzbuzztree.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../__test__/bfs.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
