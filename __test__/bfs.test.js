@@ -1,7 +1,7 @@
 'use strict';
 
-const Graph = require('../graphs/graph');
 const Vertex = require('../graphs/vertex');
+const Graph = require('../graphs/graph');
 const bfs = require('../graphs/bfs');
 
 const graph = new Graph();
@@ -12,7 +12,9 @@ const six = new Vertex(6);
 const seven = new Vertex(7);
 const three = new Vertex(3);
 const eight = new Vertex(8);
+const sleven = new Vertex(17);
 
+graph.addVertex(sleven);
 graph.addVertex(ten);
 graph.addVertex(two);
 graph.addVertex(six);
@@ -31,17 +33,17 @@ graph.addDirectedEdge(six, eight);
 graph.addDirectedEdge(three, eight);
 graph.addDirectedEdge(eight, seven);
 
-describe('#parentchildtree.js', () => {
+describe('#bfs.js', () => {
   test('return correct path', () => {
-    console.log(graph._adjacencyList);
-    expect(bfs(graph, ten, seven)).toEqual(undefined);
+    bfs(graph, ten, seven);
+    expect(bfs(graph, ten, seven)).toBeTruthy();
   });
 
-  // test('return null', () => {
-  //   expect(parentchildtree(valB, valA, binaryTreeOne)).toEqual(false);
-  // });
-  //
-  // test('Tree is null, should return undefined', () => {
-  //   expect(parentchildtree(valA, valB, binaryTreeTwo)[0]).toEqual(undefined);
-  // });
+  test('return null', () => {
+    expect(bfs(graph, ten, sleven)).toBeFalsy();
+  });
+
+  test('return a correct path', () => {
+    expect(bfs(graph, three, eight)).toBeTruthy();
+  });
 });

@@ -26,4 +26,4 @@ module.exports = class Graph {
 
     return [...this._adjacencyList.get(vertex)];
   }
-}
+};
