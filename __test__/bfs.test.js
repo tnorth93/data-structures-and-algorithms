@@ -5,7 +5,6 @@ const Graph = require('../graphs/graph');
 const bfs = require('../graphs/bfs');
 
 const graph = new Graph();
-
 const ten = new Vertex(10);
 const two = new Vertex(2);
 const six = new Vertex(6);
